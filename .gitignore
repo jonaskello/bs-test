@@ -1,0 +1,16 @@
+node_modules/*
+
+# Build directory
+dist
+temp
+js_out/
+lib/
+build/
+
+# Other
+.DS_Store
+thumbs.db
+*.log
+
+# VS Code workspace config
+.vscode
