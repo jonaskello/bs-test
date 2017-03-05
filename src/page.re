@@ -3,7 +3,7 @@ module Page = {
   type props = {message: string};
   let name = "Page";
   let handleClick _ _ => {
-    Js.log "clicked!";
+    Js.log "clicked222233!";
     None
   };
   let render {props, updater} =>
