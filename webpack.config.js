@@ -4,7 +4,8 @@ module.exports = {
   entry: './src/root.re',
   output: {
     filename: 'out.js',
-    path: path.resolve(__dirname, 'build')
+    path: path.resolve(__dirname, 'build'),
+    publicPath: "/assets/"
   },
   module: {
     rules: [
